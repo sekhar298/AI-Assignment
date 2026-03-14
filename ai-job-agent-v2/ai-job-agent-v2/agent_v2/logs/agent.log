@@ -1,0 +1,319 @@
+2026-03-13 20:28:32 | INFO     | Loaded 25 jobs from data/jobs.csv
+2026-03-13 20:28:32 | INFO     | Gemini model ready: gemini-2.5-flash
+2026-03-13 20:28:32 | INFO     | ============================================================
+2026-03-13 20:28:32 | INFO     |   LLM AGENT: REASONING PHASE
+2026-03-13 20:28:32 | INFO     | ============================================================
+2026-03-13 20:28:32 | INFO     |   Calling Gemini for agent reasoning...
+2026-03-13 20:28:50 | INFO     |   ✅ Agent reasoning complete
+2026-03-13 20:28:50 | INFO     |   Analysis: John Doe is a highly qualified candidate for an AI Engineer role, possessing 3 years of experience and a strong skill set including Python, TensorFlow, MLflow, Machine Learning, Deep Learning, PyTorch
+2026-03-13 20:28:50 | INFO     |   Reasoning: 1. **Analyze Candidate Profile vs. Job Dataset:** John Doe's profile clearly positions him as a strong 'AI Engineer' candidate. His skills (Python, TensorFlow, MLflow, Machine Learning, Deep Learning,
+2026-03-13 20:28:51 | INFO     | ============================================================
+2026-03-13 20:28:51 | INFO     |   TOOL 1: FILTERING TOOL ACTIVATED
+2026-03-13 20:28:51 | INFO     | ============================================================
+2026-03-13 20:28:51 | INFO     |   KEPT:    AI Engineer @ Zone IT Solutions | ✓ preferred location | skills match: ['python', 'tensorflow', 'machine learning']
+2026-03-13 20:28:51 | INFO     |   KEPT:    Python AI Engineer @ SRI TECH SOLUTION | other location | skills match: ['python', 'nlp']
+2026-03-13 20:28:51 | INFO     |   KEPT:    AI Engineer @ NuStar Technologies | other location | skills match: ['python', 'machine learning', 'deep learning']
+2026-03-13 20:28:51 | INFO     |   KEPT:    AI Engineer @ BJC HealthCare | other location | skills match: ['python', 'machine learning']
+2026-03-13 20:28:51 | INFO     |   KEPT:    AI Engineer @ Insight Global | other location | skills match: ['python', 'tensorflow', 'machine learning']
+2026-03-13 20:28:51 | INFO     |   KEPT:    AI Engineer @ TEKsystems | other location | skills match: ['python', 'machine learning', 'aws']
+2026-03-13 20:28:51 | INFO     |   KEPT:    AI Solutions Engineer @ Jobot | other location | skills match: ['python', 'machine learning']
+2026-03-13 20:28:51 | INFO     |   KEPT:    ML Engineer @ Euronet Worldwide | other location | skills match: ['python', 'tensorflow', 'machine learning']
+2026-03-13 20:28:51 | INFO     |   KEPT:    AI Engineer @ Bright Vision Technologies | other location | skills match: ['python', 'deep learning', 'pytorch']
+2026-03-13 20:28:51 | INFO     |   KEPT:    AI Engineer @ Cordova | other location | skills match: ['python', 'mlflow', 'nlp']
+2026-03-13 20:28:51 | INFO     |   REMOVED: Senior AI Engineer @ Orion — Requires 5 yrs exp, candidate has 3
+2026-03-13 20:28:51 | INFO     |   KEPT:    AI Research Engineer @ VeeRteq Solutions | other location | skills match: ['python', 'deep learning', 'pytorch']
+2026-03-13 20:28:51 | INFO     |   KEPT:    Data Scientist AI @ Go Local Interactive | other location | skills match: ['python', 'machine learning', 'sql']
+2026-03-13 20:28:51 | INFO     |   KEPT:    AI Platform Engineer @ Cognizant | other location | skills match: ['python', 'docker']
+2026-03-13 20:28:51 | INFO     |   KEPT:    Applied AI Engineer @ Teradata | other location | skills match: ['python', 'machine learning', 'sql']
+2026-03-13 20:28:51 | INFO     |   KEPT:    Machine Learning Engineer @ Quora | ✓ remote | skills match: ['python', 'tensorflow', 'machine learning']
+2026-03-13 20:28:51 | INFO     |   KEPT:    AI Engineer @ TechVision Labs | other location | skills match: ['python', 'tensorflow', 'pytorch']
+2026-03-13 20:28:51 | INFO     |   KEPT:    NLP Engineer @ DataMinds | other location | skills match: ['python', 'nlp']
+2026-03-13 20:28:51 | INFO     |   KEPT:    AI Systems Engineer @ MidWest AI Corp | other location | skills match: ['python', 'aws']
+2026-03-13 20:28:51 | INFO     |   KEPT:    Generative AI Engineer @ InnovateTech | other location | skills match: ['python']
+2026-03-13 20:28:51 | INFO     |   KEPT:    AI Engineer @ Central Data Systems | other location | skills match: ['python', 'machine learning', 'sql']
+2026-03-13 20:28:51 | INFO     |   KEPT:    Deep Learning Engineer @ NeuroTech Solutions | other location | skills match: ['python', 'deep learning', 'pytorch']
+2026-03-13 20:28:51 | INFO     |   KEPT:    AI Integration Engineer @ PrairieAI | other location | skills match: ['python', 'machine learning']
+2026-03-13 20:28:51 | INFO     |   KEPT:    MLOps Engineer @ Heartland Tech | other location | skills match: ['python', 'docker']
+2026-03-13 20:28:51 | INFO     |   KEPT:    AI Product Engineer @ GreatPlains AI | other location | skills match: ['python', 'machine learning']
+2026-03-13 20:28:51 | INFO     | 
+  Filter result: 24 kept, 1 removed from 25 total
+2026-03-13 20:28:52 | INFO     | ============================================================
+2026-03-13 20:28:52 | INFO     |   TOOL 2: RANKING TOOL ACTIVATED
+2026-03-13 20:28:52 | INFO     | ============================================================
+2026-03-13 20:28:52 | INFO     |   SCORED: [19pts] AI Engineer @ Zone IT Solutions | skills=8 loc=5 exp=3 role=3 | matched: ['python', 'tensorflow', 'machine learning', 'sql']
+2026-03-13 20:28:52 | INFO     |   SCORED: [ 8pts] Python AI Engineer @ SRI TECH SOLUTION | skills=4 loc=0 exp=1 role=3 | matched: ['python', 'nlp']
+2026-03-13 20:28:52 | INFO     |   SCORED: [16pts] AI Engineer @ NuStar Technologies | skills=10 loc=0 exp=3 role=3 | matched: ['python', 'machine learning', 'deep learning', 'pytorch']
+2026-03-13 20:28:52 | INFO     |   SCORED: [ 8pts] AI Engineer @ BJC HealthCare | skills=4 loc=0 exp=1 role=3 | matched: ['python', 'machine learning']
+2026-03-13 20:28:52 | INFO     |   SCORED: [14pts] AI Engineer @ Insight Global | skills=8 loc=0 exp=3 role=3 | matched: ['python', 'tensorflow', 'machine learning', 'docker']
+2026-03-13 20:28:52 | INFO     |   SCORED: [12pts] AI Engineer @ TEKsystems | skills=8 loc=0 exp=1 role=3 | matched: ['python', 'machine learning', 'aws', 'sql']
+2026-03-13 20:28:52 | INFO     |   SCORED: [ 7pts] AI Solutions Engineer @ Jobot | skills=4 loc=0 exp=3 role=0 | matched: ['python', 'machine learning']
+2026-03-13 20:28:52 | INFO     |   SCORED: [11pts] ML Engineer @ Euronet Worldwide | skills=8 loc=0 exp=3 role=0 | matched: ['python', 'tensorflow', 'machine learning', 'sql']
+2026-03-13 20:28:52 | INFO     |   SCORED: [10pts] AI Engineer @ Bright Vision Technologies | skills=6 loc=0 exp=1 role=3 | matched: ['python', 'deep learning', 'pytorch']
+2026-03-13 20:28:52 | INFO     |   SCORED: [12pts] AI Engineer @ Cordova | skills=6 loc=0 exp=3 role=3 | matched: ['python', 'mlflow', 'nlp']
+2026-03-13 20:28:52 | INFO     |   SCORED: [ 7pts] AI Research Engineer @ VeeRteq Solutions | skills=6 loc=0 exp=1 role=0 | matched: ['python', 'deep learning', 'pytorch']
+2026-03-13 20:28:52 | INFO     |   SCORED: [ 7pts] Data Scientist AI @ Go Local Interactive | skills=6 loc=0 exp=1 role=0 | matched: ['python', 'machine learning', 'sql']
+2026-03-13 20:28:52 | INFO     |   SCORED: [ 5pts] AI Platform Engineer @ Cognizant | skills=4 loc=0 exp=1 role=0 | matched: ['python', 'docker']
+2026-03-13 20:28:52 | INFO     |   SCORED: [12pts] Applied AI Engineer @ Teradata | skills=6 loc=0 exp=3 role=3 | matched: ['python', 'machine learning', 'sql']
+2026-03-13 20:28:52 | INFO     |   SCORED: [ 9pts] Machine Learning Engineer @ Quora | skills=6 loc=2 exp=1 role=0 | matched: ['python', 'tensorflow', 'machine learning']
+2026-03-13 20:28:52 | INFO     |   SCORED: [12pts] AI Engineer @ TechVision Labs | skills=6 loc=0 exp=3 role=3 | matched: ['python', 'tensorflow', 'pytorch']
+2026-03-13 20:28:52 | INFO     |   SCORED: [ 5pts] NLP Engineer @ DataMinds | skills=4 loc=0 exp=1 role=0 | matched: ['python', 'nlp']
+2026-03-13 20:28:52 | INFO     |   SCORED: [ 5pts] AI Systems Engineer @ MidWest AI Corp | skills=4 loc=0 exp=1 role=0 | matched: ['python', 'aws']
+2026-03-13 20:28:52 | INFO     |   SCORED: [ 8pts] Generative AI Engineer @ InnovateTech | skills=2 loc=0 exp=3 role=3 | matched: ['python']
+2026-03-13 20:28:52 | INFO     |   SCORED: [12pts] AI Engineer @ Central Data Systems | skills=6 loc=0 exp=3 role=3 | matched: ['python', 'machine learning', 'sql']
+2026-03-13 20:28:52 | INFO     |   SCORED: [ 7pts] Deep Learning Engineer @ NeuroTech Solutions | skills=6 loc=0 exp=1 role=0 | matched: ['python', 'deep learning', 'pytorch']
+2026-03-13 20:28:52 | INFO     |   SCORED: [ 5pts] AI Integration Engineer @ PrairieAI | skills=4 loc=0 exp=1 role=0 | matched: ['python', 'machine learning']
+2026-03-13 20:28:52 | INFO     |   SCORED: [ 7pts] MLOps Engineer @ Heartland Tech | skills=4 loc=0 exp=3 role=0 | matched: ['python', 'docker']
+2026-03-13 20:28:52 | INFO     |   SCORED: [ 7pts] AI Product Engineer @ GreatPlains AI | skills=4 loc=0 exp=3 role=0 | matched: ['python', 'machine learning']
+2026-03-13 20:28:52 | INFO     | 
+  --- TOP 3 RANKED JOBS ---
+2026-03-13 20:28:52 | INFO     |   #1: [19pts] AI Engineer @ Zone IT Solutions | Texas City TX | Skills matched: ['python', 'tensorflow', 'machine learning', 'sql']
+2026-03-13 20:28:52 | INFO     |   #2: [16pts] AI Engineer @ NuStar Technologies | Des Moines IA | Skills matched: ['python', 'machine learning', 'deep learning', 'pytorch', 'nlp']
+2026-03-13 20:28:52 | INFO     |   #3: [14pts] AI Engineer @ Insight Global | Kansas City MO | Skills matched: ['python', 'tensorflow', 'machine learning', 'docker']
+2026-03-13 20:28:52 | INFO     | ============================================================
+2026-03-13 20:28:52 | INFO     |   TOOL 3: RESUME TAILORING TOOL ACTIVATED
+2026-03-13 20:28:52 | INFO     | ============================================================
+2026-03-13 20:28:52 | INFO     |   Tailoring for: AI Engineer @ Zone IT Solutions
+2026-03-13 20:28:52 | INFO     |   Calling Gemini API for resume tailoring...
+2026-03-13 20:29:02 | INFO     |   ✅ Gemini tailoring successful
+2026-03-13 20:29:02 | INFO     | 
+  Output files saved to output/ directory
+2026-03-14 15:33:36 | INFO     | Loaded 25 jobs from data/jobs.csv
+2026-03-14 15:33:36 | INFO     | Gemini model ready: gemini-2.5-flash
+2026-03-14 15:33:36 | INFO     | ============================================================
+2026-03-14 15:33:36 | INFO     |   LLM AGENT: REASONING PHASE
+2026-03-14 15:33:36 | INFO     | ============================================================
+2026-03-14 15:33:36 | INFO     |   Calling Gemini for agent reasoning...
+2026-03-14 15:33:48 | INFO     |   ✅ Agent reasoning complete
+2026-03-14 15:33:48 | INFO     |   Analysis: The candidate, John Doe, is an AI Engineer with 3 years of experience. His skills are strong and diverse, covering core areas like Python, Machine Learning (TensorFlow, PyTorch, Deep Learning, NLP), M
+2026-03-14 15:33:48 | INFO     |   Reasoning: 1. **Analyze Candidate Profile:** John Doe is a 3-year experienced AI Engineer with strong ML/DL, MLOps, cloud, and data skills, preferring Texas. This profile is strong and specific.
+2. **Analyze Job
+2026-03-14 15:33:49 | INFO     | ============================================================
+2026-03-14 15:33:49 | INFO     |   TOOL 1: FILTERING TOOL ACTIVATED
+2026-03-14 15:33:49 | INFO     | ============================================================
+2026-03-14 15:33:49 | INFO     |   KEPT:    AI Engineer @ Zone IT Solutions | ✓ preferred location | skills match: ['python', 'tensorflow', 'machine learning']
+2026-03-14 15:33:49 | INFO     |   KEPT:    Python AI Engineer @ SRI TECH SOLUTION | other location | skills match: ['python', 'nlp']
+2026-03-14 15:33:49 | INFO     |   KEPT:    AI Engineer @ NuStar Technologies | other location | skills match: ['python', 'machine learning', 'deep learning']
+2026-03-14 15:33:49 | INFO     |   KEPT:    AI Engineer @ BJC HealthCare | other location | skills match: ['python', 'machine learning']
+2026-03-14 15:33:49 | INFO     |   KEPT:    AI Engineer @ Insight Global | other location | skills match: ['python', 'tensorflow', 'machine learning']
+2026-03-14 15:33:49 | INFO     |   KEPT:    AI Engineer @ TEKsystems | other location | skills match: ['python', 'machine learning', 'aws']
+2026-03-14 15:33:49 | INFO     |   KEPT:    AI Solutions Engineer @ Jobot | other location | skills match: ['python', 'machine learning']
+2026-03-14 15:33:49 | INFO     |   KEPT:    ML Engineer @ Euronet Worldwide | other location | skills match: ['python', 'tensorflow', 'machine learning']
+2026-03-14 15:33:49 | INFO     |   KEPT:    AI Engineer @ Bright Vision Technologies | other location | skills match: ['python', 'deep learning', 'pytorch']
+2026-03-14 15:33:49 | INFO     |   KEPT:    AI Engineer @ Cordova | other location | skills match: ['python', 'mlflow', 'nlp']
+2026-03-14 15:33:49 | INFO     |   KEPT:    Senior AI Engineer @ Orion | other location | skills match: ['python', 'aws']
+2026-03-14 15:33:49 | INFO     |   KEPT:    AI Research Engineer @ VeeRteq Solutions | other location | skills match: ['python', 'deep learning', 'pytorch']
+2026-03-14 15:33:49 | INFO     |   KEPT:    Data Scientist AI @ Go Local Interactive | other location | skills match: ['python', 'machine learning', 'sql']
+2026-03-14 15:33:49 | INFO     |   KEPT:    AI Platform Engineer @ Cognizant | other location | skills match: ['python', 'docker']
+2026-03-14 15:33:49 | INFO     |   KEPT:    Applied AI Engineer @ Teradata | other location | skills match: ['python', 'machine learning', 'sql']
+2026-03-14 15:33:49 | INFO     |   KEPT:    Machine Learning Engineer @ Quora | ✓ remote | skills match: ['python', 'tensorflow', 'machine learning']
+2026-03-14 15:33:49 | INFO     |   KEPT:    AI Engineer @ TechVision Labs | other location | skills match: ['python', 'tensorflow', 'pytorch']
+2026-03-14 15:33:49 | INFO     |   KEPT:    NLP Engineer @ DataMinds | other location | skills match: ['python', 'nlp']
+2026-03-14 15:33:49 | INFO     |   KEPT:    AI Systems Engineer @ MidWest AI Corp | other location | skills match: ['python', 'aws']
+2026-03-14 15:33:49 | INFO     |   KEPT:    Generative AI Engineer @ InnovateTech | other location | skills match: ['python']
+2026-03-14 15:33:49 | INFO     |   KEPT:    AI Engineer @ Central Data Systems | other location | skills match: ['python', 'machine learning', 'sql']
+2026-03-14 15:33:49 | INFO     |   KEPT:    Deep Learning Engineer @ NeuroTech Solutions | other location | skills match: ['python', 'deep learning', 'pytorch']
+2026-03-14 15:33:49 | INFO     |   KEPT:    AI Integration Engineer @ PrairieAI | other location | skills match: ['python', 'machine learning']
+2026-03-14 15:33:49 | INFO     |   KEPT:    MLOps Engineer @ Heartland Tech | other location | skills match: ['python', 'docker']
+2026-03-14 15:33:49 | INFO     |   KEPT:    AI Product Engineer @ GreatPlains AI | other location | skills match: ['python', 'machine learning']
+2026-03-14 15:33:49 | INFO     | 
+  Filter result: 25 kept, 0 removed from 25 total
+2026-03-14 15:33:50 | INFO     | ============================================================
+2026-03-14 15:33:50 | INFO     |   TOOL 2: RANKING TOOL ACTIVATED
+2026-03-14 15:33:50 | INFO     | ============================================================
+2026-03-14 15:33:50 | INFO     |   SCORED: [19pts] AI Engineer @ Zone IT Solutions | skills=8 loc=5 exp=3 role=3 | matched: ['python', 'tensorflow', 'machine learning', 'sql']
+2026-03-14 15:33:50 | INFO     |   SCORED: [ 8pts] Python AI Engineer @ SRI TECH SOLUTION | skills=4 loc=0 exp=1 role=3 | matched: ['python', 'nlp']
+2026-03-14 15:33:50 | INFO     |   SCORED: [16pts] AI Engineer @ NuStar Technologies | skills=10 loc=0 exp=3 role=3 | matched: ['python', 'machine learning', 'deep learning', 'pytorch']
+2026-03-14 15:33:50 | INFO     |   SCORED: [ 8pts] AI Engineer @ BJC HealthCare | skills=4 loc=0 exp=1 role=3 | matched: ['python', 'machine learning']
+2026-03-14 15:33:50 | INFO     |   SCORED: [14pts] AI Engineer @ Insight Global | skills=8 loc=0 exp=3 role=3 | matched: ['python', 'tensorflow', 'machine learning', 'docker']
+2026-03-14 15:33:50 | INFO     |   SCORED: [12pts] AI Engineer @ TEKsystems | skills=8 loc=0 exp=1 role=3 | matched: ['python', 'machine learning', 'aws', 'sql']
+2026-03-14 15:33:50 | INFO     |   SCORED: [ 7pts] AI Solutions Engineer @ Jobot | skills=4 loc=0 exp=3 role=0 | matched: ['python', 'machine learning']
+2026-03-14 15:33:50 | INFO     |   SCORED: [11pts] ML Engineer @ Euronet Worldwide | skills=8 loc=0 exp=3 role=0 | matched: ['python', 'tensorflow', 'machine learning', 'sql']
+2026-03-14 15:33:50 | INFO     |   SCORED: [10pts] AI Engineer @ Bright Vision Technologies | skills=6 loc=0 exp=1 role=3 | matched: ['python', 'deep learning', 'pytorch']
+2026-03-14 15:33:50 | INFO     |   SCORED: [12pts] AI Engineer @ Cordova | skills=6 loc=0 exp=3 role=3 | matched: ['python', 'mlflow', 'nlp']
+2026-03-14 15:33:50 | INFO     |   SCORED: [ 7pts] Senior AI Engineer @ Orion | skills=4 loc=0 exp=0 role=3 | matched: ['python', 'aws']
+2026-03-14 15:33:50 | INFO     |   SCORED: [ 7pts] AI Research Engineer @ VeeRteq Solutions | skills=6 loc=0 exp=1 role=0 | matched: ['python', 'deep learning', 'pytorch']
+2026-03-14 15:33:50 | INFO     |   SCORED: [ 7pts] Data Scientist AI @ Go Local Interactive | skills=6 loc=0 exp=1 role=0 | matched: ['python', 'machine learning', 'sql']
+2026-03-14 15:33:50 | INFO     |   SCORED: [ 5pts] AI Platform Engineer @ Cognizant | skills=4 loc=0 exp=1 role=0 | matched: ['python', 'docker']
+2026-03-14 15:33:50 | INFO     |   SCORED: [12pts] Applied AI Engineer @ Teradata | skills=6 loc=0 exp=3 role=3 | matched: ['python', 'machine learning', 'sql']
+2026-03-14 15:33:50 | INFO     |   SCORED: [ 9pts] Machine Learning Engineer @ Quora | skills=6 loc=2 exp=1 role=0 | matched: ['python', 'tensorflow', 'machine learning']
+2026-03-14 15:33:50 | INFO     |   SCORED: [12pts] AI Engineer @ TechVision Labs | skills=6 loc=0 exp=3 role=3 | matched: ['python', 'tensorflow', 'pytorch']
+2026-03-14 15:33:50 | INFO     |   SCORED: [ 5pts] NLP Engineer @ DataMinds | skills=4 loc=0 exp=1 role=0 | matched: ['python', 'nlp']
+2026-03-14 15:33:50 | INFO     |   SCORED: [ 5pts] AI Systems Engineer @ MidWest AI Corp | skills=4 loc=0 exp=1 role=0 | matched: ['python', 'aws']
+2026-03-14 15:33:50 | INFO     |   SCORED: [ 8pts] Generative AI Engineer @ InnovateTech | skills=2 loc=0 exp=3 role=3 | matched: ['python']
+2026-03-14 15:33:50 | INFO     |   SCORED: [12pts] AI Engineer @ Central Data Systems | skills=6 loc=0 exp=3 role=3 | matched: ['python', 'machine learning', 'sql']
+2026-03-14 15:33:50 | INFO     |   SCORED: [ 7pts] Deep Learning Engineer @ NeuroTech Solutions | skills=6 loc=0 exp=1 role=0 | matched: ['python', 'deep learning', 'pytorch']
+2026-03-14 15:33:50 | INFO     |   SCORED: [ 5pts] AI Integration Engineer @ PrairieAI | skills=4 loc=0 exp=1 role=0 | matched: ['python', 'machine learning']
+2026-03-14 15:33:50 | INFO     |   SCORED: [ 7pts] MLOps Engineer @ Heartland Tech | skills=4 loc=0 exp=3 role=0 | matched: ['python', 'docker']
+2026-03-14 15:33:50 | INFO     |   SCORED: [ 7pts] AI Product Engineer @ GreatPlains AI | skills=4 loc=0 exp=3 role=0 | matched: ['python', 'machine learning']
+2026-03-14 15:33:50 | INFO     | 
+  --- TOP 3 RANKED JOBS ---
+2026-03-14 15:33:50 | INFO     |   #1: [19pts] AI Engineer @ Zone IT Solutions | Texas City TX | Skills matched: ['python', 'tensorflow', 'machine learning', 'sql']
+2026-03-14 15:33:50 | INFO     |   #2: [16pts] AI Engineer @ NuStar Technologies | Des Moines IA | Skills matched: ['python', 'machine learning', 'deep learning', 'pytorch', 'nlp']
+2026-03-14 15:33:50 | INFO     |   #3: [14pts] AI Engineer @ Insight Global | Kansas City MO | Skills matched: ['python', 'tensorflow', 'machine learning', 'docker']
+2026-03-14 15:33:50 | INFO     | ============================================================
+2026-03-14 15:33:50 | INFO     |   TOOL 3: RESUME TAILORING TOOL ACTIVATED
+2026-03-14 15:33:50 | INFO     | ============================================================
+2026-03-14 15:33:50 | INFO     |   Tailoring for: AI Engineer @ Zone IT Solutions
+2026-03-14 15:33:50 | INFO     |   Calling Gemini API for resume tailoring...
+2026-03-14 15:34:01 | INFO     |   ✅ Gemini tailoring successful
+2026-03-14 15:34:01 | INFO     | 
+  Output files saved to output/ directory
+2026-03-14 16:42:50 | INFO     | Loaded 25 jobs from data/jobs.csv
+2026-03-14 16:42:50 | INFO     | Gemini model ready: gemini-2.5-flash
+2026-03-14 16:42:50 | INFO     | ============================================================
+2026-03-14 16:42:50 | INFO     |   LLM AGENT: REASONING PHASE
+2026-03-14 16:42:50 | INFO     | ============================================================
+2026-03-14 16:42:50 | INFO     |   Calling Gemini for agent reasoning...
+2026-03-14 16:43:08 | INFO     |   ✅ Agent reasoning complete
+2026-03-14 16:43:08 | INFO     |   Analysis: The candidate, John Doe, is a seasoned AI Engineer with 3 years of experience. His skill set is comprehensive for AI/ML roles, covering core areas like Python, Machine Learning, Deep Learning, NLP, Te
+2026-03-14 16:43:08 | INFO     |   Reasoning: 1. **Analyze Candidate Profile**: John Doe is a 3-year experienced AI Engineer with skills in Python, TensorFlow, MLflow, ML, DL, PyTorch, NLP, Docker, AWS, SQL. He strongly prefers roles in Texas. Hi
+2026-03-14 16:43:09 | INFO     | ============================================================
+2026-03-14 16:43:09 | INFO     |   TOOL 1: FILTERING TOOL ACTIVATED
+2026-03-14 16:43:09 | INFO     | ============================================================
+2026-03-14 16:43:09 | INFO     |   KEPT:    AI Engineer @ Zone IT Solutions | ✓ preferred location | skills match: ['python', 'tensorflow', 'machine learning']
+2026-03-14 16:43:09 | INFO     |   KEPT:    Python AI Engineer @ SRI TECH SOLUTION | other location | skills match: ['python', 'nlp']
+2026-03-14 16:43:09 | INFO     |   KEPT:    AI Engineer @ NuStar Technologies | other location | skills match: ['python', 'machine learning', 'deep learning']
+2026-03-14 16:43:09 | INFO     |   KEPT:    AI Engineer @ BJC HealthCare | other location | skills match: ['python', 'machine learning']
+2026-03-14 16:43:09 | INFO     |   KEPT:    AI Engineer @ Insight Global | other location | skills match: ['python', 'tensorflow', 'machine learning']
+2026-03-14 16:43:09 | INFO     |   KEPT:    AI Engineer @ TEKsystems | other location | skills match: ['python', 'machine learning', 'aws']
+2026-03-14 16:43:09 | INFO     |   KEPT:    AI Solutions Engineer @ Jobot | other location | skills match: ['python', 'machine learning']
+2026-03-14 16:43:09 | INFO     |   KEPT:    ML Engineer @ Euronet Worldwide | other location | skills match: ['python', 'tensorflow', 'machine learning']
+2026-03-14 16:43:09 | INFO     |   KEPT:    AI Engineer @ Bright Vision Technologies | other location | skills match: ['python', 'deep learning', 'pytorch']
+2026-03-14 16:43:09 | INFO     |   KEPT:    AI Engineer @ Cordova | other location | skills match: ['python', 'mlflow', 'nlp']
+2026-03-14 16:43:09 | INFO     |   REMOVED: Senior AI Engineer @ Orion — Requires 5 yrs exp, candidate has 3
+2026-03-14 16:43:09 | INFO     |   KEPT:    AI Research Engineer @ VeeRteq Solutions | other location | skills match: ['python', 'deep learning', 'pytorch']
+2026-03-14 16:43:09 | INFO     |   KEPT:    Data Scientist AI @ Go Local Interactive | other location | skills match: ['python', 'machine learning', 'sql']
+2026-03-14 16:43:09 | INFO     |   KEPT:    AI Platform Engineer @ Cognizant | other location | skills match: ['python', 'docker']
+2026-03-14 16:43:09 | INFO     |   KEPT:    Applied AI Engineer @ Teradata | other location | skills match: ['python', 'machine learning', 'sql']
+2026-03-14 16:43:09 | INFO     |   KEPT:    Machine Learning Engineer @ Quora | ✓ remote | skills match: ['python', 'tensorflow', 'machine learning']
+2026-03-14 16:43:09 | INFO     |   KEPT:    AI Engineer @ TechVision Labs | other location | skills match: ['python', 'tensorflow', 'pytorch']
+2026-03-14 16:43:09 | INFO     |   KEPT:    NLP Engineer @ DataMinds | other location | skills match: ['python', 'nlp']
+2026-03-14 16:43:09 | INFO     |   KEPT:    AI Systems Engineer @ MidWest AI Corp | other location | skills match: ['python', 'aws']
+2026-03-14 16:43:09 | INFO     |   KEPT:    Generative AI Engineer @ InnovateTech | other location | skills match: ['python']
+2026-03-14 16:43:09 | INFO     |   KEPT:    AI Engineer @ Central Data Systems | other location | skills match: ['python', 'machine learning', 'sql']
+2026-03-14 16:43:09 | INFO     |   KEPT:    Deep Learning Engineer @ NeuroTech Solutions | other location | skills match: ['python', 'deep learning', 'pytorch']
+2026-03-14 16:43:09 | INFO     |   KEPT:    AI Integration Engineer @ PrairieAI | other location | skills match: ['python', 'machine learning']
+2026-03-14 16:43:09 | INFO     |   KEPT:    MLOps Engineer @ Heartland Tech | other location | skills match: ['python', 'docker']
+2026-03-14 16:43:09 | INFO     |   KEPT:    AI Product Engineer @ GreatPlains AI | other location | skills match: ['python', 'machine learning']
+2026-03-14 16:43:09 | INFO     | 
+  Filter result: 24 kept, 1 removed from 25 total
+2026-03-14 16:43:09 | INFO     | ============================================================
+2026-03-14 16:43:09 | INFO     |   TOOL 2: RANKING TOOL ACTIVATED
+2026-03-14 16:43:09 | INFO     | ============================================================
+2026-03-14 16:43:09 | INFO     |   SCORED: [19pts] AI Engineer @ Zone IT Solutions | skills=8 loc=5 exp=3 role=3 | matched: ['python', 'tensorflow', 'machine learning', 'sql']
+2026-03-14 16:43:09 | INFO     |   SCORED: [ 8pts] Python AI Engineer @ SRI TECH SOLUTION | skills=4 loc=0 exp=1 role=3 | matched: ['python', 'nlp']
+2026-03-14 16:43:09 | INFO     |   SCORED: [16pts] AI Engineer @ NuStar Technologies | skills=10 loc=0 exp=3 role=3 | matched: ['python', 'machine learning', 'deep learning', 'pytorch']
+2026-03-14 16:43:09 | INFO     |   SCORED: [ 8pts] AI Engineer @ BJC HealthCare | skills=4 loc=0 exp=1 role=3 | matched: ['python', 'machine learning']
+2026-03-14 16:43:09 | INFO     |   SCORED: [14pts] AI Engineer @ Insight Global | skills=8 loc=0 exp=3 role=3 | matched: ['python', 'tensorflow', 'machine learning', 'docker']
+2026-03-14 16:43:09 | INFO     |   SCORED: [12pts] AI Engineer @ TEKsystems | skills=8 loc=0 exp=1 role=3 | matched: ['python', 'machine learning', 'aws', 'sql']
+2026-03-14 16:43:09 | INFO     |   SCORED: [ 7pts] AI Solutions Engineer @ Jobot | skills=4 loc=0 exp=3 role=0 | matched: ['python', 'machine learning']
+2026-03-14 16:43:09 | INFO     |   SCORED: [11pts] ML Engineer @ Euronet Worldwide | skills=8 loc=0 exp=3 role=0 | matched: ['python', 'tensorflow', 'machine learning', 'sql']
+2026-03-14 16:43:09 | INFO     |   SCORED: [10pts] AI Engineer @ Bright Vision Technologies | skills=6 loc=0 exp=1 role=3 | matched: ['python', 'deep learning', 'pytorch']
+2026-03-14 16:43:09 | INFO     |   SCORED: [12pts] AI Engineer @ Cordova | skills=6 loc=0 exp=3 role=3 | matched: ['python', 'mlflow', 'nlp']
+2026-03-14 16:43:09 | INFO     |   SCORED: [ 7pts] AI Research Engineer @ VeeRteq Solutions | skills=6 loc=0 exp=1 role=0 | matched: ['python', 'deep learning', 'pytorch']
+2026-03-14 16:43:09 | INFO     |   SCORED: [ 7pts] Data Scientist AI @ Go Local Interactive | skills=6 loc=0 exp=1 role=0 | matched: ['python', 'machine learning', 'sql']
+2026-03-14 16:43:09 | INFO     |   SCORED: [ 5pts] AI Platform Engineer @ Cognizant | skills=4 loc=0 exp=1 role=0 | matched: ['python', 'docker']
+2026-03-14 16:43:09 | INFO     |   SCORED: [12pts] Applied AI Engineer @ Teradata | skills=6 loc=0 exp=3 role=3 | matched: ['python', 'machine learning', 'sql']
+2026-03-14 16:43:09 | INFO     |   SCORED: [ 9pts] Machine Learning Engineer @ Quora | skills=6 loc=2 exp=1 role=0 | matched: ['python', 'tensorflow', 'machine learning']
+2026-03-14 16:43:09 | INFO     |   SCORED: [12pts] AI Engineer @ TechVision Labs | skills=6 loc=0 exp=3 role=3 | matched: ['python', 'tensorflow', 'pytorch']
+2026-03-14 16:43:09 | INFO     |   SCORED: [ 5pts] NLP Engineer @ DataMinds | skills=4 loc=0 exp=1 role=0 | matched: ['python', 'nlp']
+2026-03-14 16:43:09 | INFO     |   SCORED: [ 5pts] AI Systems Engineer @ MidWest AI Corp | skills=4 loc=0 exp=1 role=0 | matched: ['python', 'aws']
+2026-03-14 16:43:09 | INFO     |   SCORED: [ 8pts] Generative AI Engineer @ InnovateTech | skills=2 loc=0 exp=3 role=3 | matched: ['python']
+2026-03-14 16:43:09 | INFO     |   SCORED: [12pts] AI Engineer @ Central Data Systems | skills=6 loc=0 exp=3 role=3 | matched: ['python', 'machine learning', 'sql']
+2026-03-14 16:43:09 | INFO     |   SCORED: [ 7pts] Deep Learning Engineer @ NeuroTech Solutions | skills=6 loc=0 exp=1 role=0 | matched: ['python', 'deep learning', 'pytorch']
+2026-03-14 16:43:09 | INFO     |   SCORED: [ 5pts] AI Integration Engineer @ PrairieAI | skills=4 loc=0 exp=1 role=0 | matched: ['python', 'machine learning']
+2026-03-14 16:43:09 | INFO     |   SCORED: [ 7pts] MLOps Engineer @ Heartland Tech | skills=4 loc=0 exp=3 role=0 | matched: ['python', 'docker']
+2026-03-14 16:43:09 | INFO     |   SCORED: [ 7pts] AI Product Engineer @ GreatPlains AI | skills=4 loc=0 exp=3 role=0 | matched: ['python', 'machine learning']
+2026-03-14 16:43:09 | INFO     | 
+  --- TOP 3 RANKED JOBS ---
+2026-03-14 16:43:09 | INFO     |   #1: [19pts] AI Engineer @ Zone IT Solutions | Texas City TX | Skills matched: ['python', 'tensorflow', 'machine learning', 'sql']
+2026-03-14 16:43:09 | INFO     |   #2: [16pts] AI Engineer @ NuStar Technologies | Des Moines IA | Skills matched: ['python', 'machine learning', 'deep learning', 'pytorch', 'nlp']
+2026-03-14 16:43:09 | INFO     |   #3: [14pts] AI Engineer @ Insight Global | Kansas City MO | Skills matched: ['python', 'tensorflow', 'machine learning', 'docker']
+2026-03-14 16:43:10 | INFO     | ============================================================
+2026-03-14 16:43:10 | INFO     |   TOOL 3: RESUME TAILORING TOOL ACTIVATED
+2026-03-14 16:43:10 | INFO     | ============================================================
+2026-03-14 16:43:10 | INFO     |   Tailoring for: AI Engineer @ Zone IT Solutions
+2026-03-14 16:43:10 | INFO     |   Calling Gemini API for resume tailoring...
+2026-03-14 16:43:19 | INFO     |   ✅ Gemini tailoring successful
+2026-03-14 16:43:19 | INFO     | 
+  Output files saved to output/ directory
+2026-03-14 16:46:37 | INFO     | Loaded 25 jobs from data/jobs.csv
+2026-03-14 16:46:37 | INFO     | Gemini model ready: gemini-2.5-flash
+2026-03-14 16:46:37 | INFO     | ============================================================
+2026-03-14 16:46:37 | INFO     |   LLM AGENT: REASONING PHASE
+2026-03-14 16:46:37 | INFO     | ============================================================
+2026-03-14 16:46:37 | INFO     |   Calling Gemini for agent reasoning...
+2026-03-14 16:46:53 | INFO     |   ✅ Agent reasoning complete
+2026-03-14 16:46:53 | INFO     |   Analysis: The candidate, John Doe, is an AI Engineer with 3 years of experience, a strong skill set encompassing Python, various ML/DL frameworks (TensorFlow, PyTorch), MLOps tools (MLflow, Docker, AWS), NLP, a
+2026-03-14 16:46:53 | INFO     |   Reasoning: 1. **Analyze Candidate Profile:** Identified John's core skills (Python, ML frameworks, MLOps, NLP, SQL), 3 years of experience, preferred role (AI Engineer), and preferred location (Texas). This prov
+2026-03-14 16:46:54 | INFO     | ============================================================
+2026-03-14 16:46:54 | INFO     |   TOOL 1: FILTERING TOOL ACTIVATED
+2026-03-14 16:46:54 | INFO     | ============================================================
+2026-03-14 16:46:54 | INFO     |   KEPT:    AI Engineer @ Zone IT Solutions | ✓ preferred location | skills match: ['python', 'tensorflow', 'machine learning']
+2026-03-14 16:46:54 | INFO     |   KEPT:    Python AI Engineer @ SRI TECH SOLUTION | other location | skills match: ['python', 'nlp']
+2026-03-14 16:46:54 | INFO     |   KEPT:    AI Engineer @ NuStar Technologies | other location | skills match: ['python', 'machine learning', 'deep learning']
+2026-03-14 16:46:54 | INFO     |   KEPT:    AI Engineer @ BJC HealthCare | other location | skills match: ['python', 'machine learning']
+2026-03-14 16:46:54 | INFO     |   KEPT:    AI Engineer @ Insight Global | other location | skills match: ['python', 'tensorflow', 'machine learning']
+2026-03-14 16:46:54 | INFO     |   KEPT:    AI Engineer @ TEKsystems | other location | skills match: ['python', 'machine learning', 'aws']
+2026-03-14 16:46:54 | INFO     |   KEPT:    AI Solutions Engineer @ Jobot | other location | skills match: ['python', 'machine learning']
+2026-03-14 16:46:54 | INFO     |   KEPT:    ML Engineer @ Euronet Worldwide | other location | skills match: ['python', 'tensorflow', 'machine learning']
+2026-03-14 16:46:54 | INFO     |   KEPT:    AI Engineer @ Bright Vision Technologies | other location | skills match: ['python', 'deep learning', 'pytorch']
+2026-03-14 16:46:54 | INFO     |   KEPT:    AI Engineer @ Cordova | other location | skills match: ['python', 'mlflow', 'nlp']
+2026-03-14 16:46:54 | INFO     |   KEPT:    Senior AI Engineer @ Orion | other location | skills match: ['python', 'aws']
+2026-03-14 16:46:54 | INFO     |   KEPT:    AI Research Engineer @ VeeRteq Solutions | other location | skills match: ['python', 'deep learning', 'pytorch']
+2026-03-14 16:46:54 | INFO     |   KEPT:    Data Scientist AI @ Go Local Interactive | other location | skills match: ['python', 'machine learning', 'sql']
+2026-03-14 16:46:54 | INFO     |   KEPT:    AI Platform Engineer @ Cognizant | other location | skills match: ['python', 'docker']
+2026-03-14 16:46:54 | INFO     |   KEPT:    Applied AI Engineer @ Teradata | other location | skills match: ['python', 'machine learning', 'sql']
+2026-03-14 16:46:54 | INFO     |   KEPT:    Machine Learning Engineer @ Quora | ✓ remote | skills match: ['python', 'tensorflow', 'machine learning']
+2026-03-14 16:46:54 | INFO     |   KEPT:    AI Engineer @ TechVision Labs | other location | skills match: ['python', 'tensorflow', 'pytorch']
+2026-03-14 16:46:54 | INFO     |   KEPT:    NLP Engineer @ DataMinds | other location | skills match: ['python', 'nlp']
+2026-03-14 16:46:54 | INFO     |   KEPT:    AI Systems Engineer @ MidWest AI Corp | other location | skills match: ['python', 'aws']
+2026-03-14 16:46:54 | INFO     |   KEPT:    Generative AI Engineer @ InnovateTech | other location | skills match: ['python']
+2026-03-14 16:46:54 | INFO     |   KEPT:    AI Engineer @ Central Data Systems | other location | skills match: ['python', 'machine learning', 'sql']
+2026-03-14 16:46:54 | INFO     |   KEPT:    Deep Learning Engineer @ NeuroTech Solutions | other location | skills match: ['python', 'deep learning', 'pytorch']
+2026-03-14 16:46:54 | INFO     |   KEPT:    AI Integration Engineer @ PrairieAI | other location | skills match: ['python', 'machine learning']
+2026-03-14 16:46:54 | INFO     |   KEPT:    MLOps Engineer @ Heartland Tech | other location | skills match: ['python', 'docker']
+2026-03-14 16:46:54 | INFO     |   KEPT:    AI Product Engineer @ GreatPlains AI | other location | skills match: ['python', 'machine learning']
+2026-03-14 16:46:54 | INFO     | 
+  Filter result: 25 kept, 0 removed from 25 total
+2026-03-14 16:46:55 | INFO     | ============================================================
+2026-03-14 16:46:55 | INFO     |   TOOL 2: RANKING TOOL ACTIVATED
+2026-03-14 16:46:55 | INFO     | ============================================================
+2026-03-14 16:46:55 | INFO     |   SCORED: [19pts] AI Engineer @ Zone IT Solutions | skills=8 loc=5 exp=3 role=3 | matched: ['python', 'tensorflow', 'machine learning', 'sql']
+2026-03-14 16:46:55 | INFO     |   SCORED: [ 8pts] Python AI Engineer @ SRI TECH SOLUTION | skills=4 loc=0 exp=1 role=3 | matched: ['python', 'nlp']
+2026-03-14 16:46:55 | INFO     |   SCORED: [16pts] AI Engineer @ NuStar Technologies | skills=10 loc=0 exp=3 role=3 | matched: ['python', 'machine learning', 'deep learning', 'pytorch']
+2026-03-14 16:46:55 | INFO     |   SCORED: [ 8pts] AI Engineer @ BJC HealthCare | skills=4 loc=0 exp=1 role=3 | matched: ['python', 'machine learning']
+2026-03-14 16:46:55 | INFO     |   SCORED: [14pts] AI Engineer @ Insight Global | skills=8 loc=0 exp=3 role=3 | matched: ['python', 'tensorflow', 'machine learning', 'docker']
+2026-03-14 16:46:55 | INFO     |   SCORED: [12pts] AI Engineer @ TEKsystems | skills=8 loc=0 exp=1 role=3 | matched: ['python', 'machine learning', 'aws', 'sql']
+2026-03-14 16:46:55 | INFO     |   SCORED: [ 7pts] AI Solutions Engineer @ Jobot | skills=4 loc=0 exp=3 role=0 | matched: ['python', 'machine learning']
+2026-03-14 16:46:55 | INFO     |   SCORED: [11pts] ML Engineer @ Euronet Worldwide | skills=8 loc=0 exp=3 role=0 | matched: ['python', 'tensorflow', 'machine learning', 'sql']
+2026-03-14 16:46:55 | INFO     |   SCORED: [10pts] AI Engineer @ Bright Vision Technologies | skills=6 loc=0 exp=1 role=3 | matched: ['python', 'deep learning', 'pytorch']
+2026-03-14 16:46:55 | INFO     |   SCORED: [12pts] AI Engineer @ Cordova | skills=6 loc=0 exp=3 role=3 | matched: ['python', 'mlflow', 'nlp']
+2026-03-14 16:46:55 | INFO     |   SCORED: [ 7pts] Senior AI Engineer @ Orion | skills=4 loc=0 exp=0 role=3 | matched: ['python', 'aws']
+2026-03-14 16:46:55 | INFO     |   SCORED: [ 7pts] AI Research Engineer @ VeeRteq Solutions | skills=6 loc=0 exp=1 role=0 | matched: ['python', 'deep learning', 'pytorch']
+2026-03-14 16:46:55 | INFO     |   SCORED: [ 7pts] Data Scientist AI @ Go Local Interactive | skills=6 loc=0 exp=1 role=0 | matched: ['python', 'machine learning', 'sql']
+2026-03-14 16:46:55 | INFO     |   SCORED: [ 5pts] AI Platform Engineer @ Cognizant | skills=4 loc=0 exp=1 role=0 | matched: ['python', 'docker']
+2026-03-14 16:46:55 | INFO     |   SCORED: [12pts] Applied AI Engineer @ Teradata | skills=6 loc=0 exp=3 role=3 | matched: ['python', 'machine learning', 'sql']
+2026-03-14 16:46:55 | INFO     |   SCORED: [ 9pts] Machine Learning Engineer @ Quora | skills=6 loc=2 exp=1 role=0 | matched: ['python', 'tensorflow', 'machine learning']
+2026-03-14 16:46:55 | INFO     |   SCORED: [12pts] AI Engineer @ TechVision Labs | skills=6 loc=0 exp=3 role=3 | matched: ['python', 'tensorflow', 'pytorch']
+2026-03-14 16:46:55 | INFO     |   SCORED: [ 5pts] NLP Engineer @ DataMinds | skills=4 loc=0 exp=1 role=0 | matched: ['python', 'nlp']
+2026-03-14 16:46:55 | INFO     |   SCORED: [ 5pts] AI Systems Engineer @ MidWest AI Corp | skills=4 loc=0 exp=1 role=0 | matched: ['python', 'aws']
+2026-03-14 16:46:55 | INFO     |   SCORED: [ 8pts] Generative AI Engineer @ InnovateTech | skills=2 loc=0 exp=3 role=3 | matched: ['python']
+2026-03-14 16:46:55 | INFO     |   SCORED: [12pts] AI Engineer @ Central Data Systems | skills=6 loc=0 exp=3 role=3 | matched: ['python', 'machine learning', 'sql']
+2026-03-14 16:46:55 | INFO     |   SCORED: [ 7pts] Deep Learning Engineer @ NeuroTech Solutions | skills=6 loc=0 exp=1 role=0 | matched: ['python', 'deep learning', 'pytorch']
+2026-03-14 16:46:55 | INFO     |   SCORED: [ 5pts] AI Integration Engineer @ PrairieAI | skills=4 loc=0 exp=1 role=0 | matched: ['python', 'machine learning']
+2026-03-14 16:46:55 | INFO     |   SCORED: [ 7pts] MLOps Engineer @ Heartland Tech | skills=4 loc=0 exp=3 role=0 | matched: ['python', 'docker']
+2026-03-14 16:46:55 | INFO     |   SCORED: [ 7pts] AI Product Engineer @ GreatPlains AI | skills=4 loc=0 exp=3 role=0 | matched: ['python', 'machine learning']
+2026-03-14 16:46:55 | INFO     | 
+  --- TOP 3 RANKED JOBS ---
+2026-03-14 16:46:55 | INFO     |   #1: [19pts] AI Engineer @ Zone IT Solutions | Texas City TX | Skills matched: ['python', 'tensorflow', 'machine learning', 'sql']
+2026-03-14 16:46:55 | INFO     |   #2: [16pts] AI Engineer @ NuStar Technologies | Des Moines IA | Skills matched: ['python', 'machine learning', 'deep learning', 'pytorch', 'nlp']
+2026-03-14 16:46:55 | INFO     |   #3: [14pts] AI Engineer @ Insight Global | Kansas City MO | Skills matched: ['python', 'tensorflow', 'machine learning', 'docker']
+2026-03-14 16:46:55 | INFO     | ============================================================
+2026-03-14 16:46:55 | INFO     |   TOOL 3: RESUME TAILORING TOOL ACTIVATED
+2026-03-14 16:46:55 | INFO     | ============================================================
+2026-03-14 16:46:55 | INFO     |   Tailoring for: AI Engineer @ Zone IT Solutions
+2026-03-14 16:46:55 | INFO     |   Calling Gemini API for resume tailoring...
+2026-03-14 16:47:03 | INFO     |   ✅ Gemini tailoring successful
+2026-03-14 16:47:04 | INFO     | 
+  Output files saved to output/ directory

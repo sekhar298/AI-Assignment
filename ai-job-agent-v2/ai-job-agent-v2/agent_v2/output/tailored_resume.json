@@ -1,0 +1,26 @@
+{
+  "tailored_summary": "Results-oriented AI Engineer with 3-5 years of experience specializing in the design and deployment of scalable Machine Learning pipelines. Proven expertise in leveraging Python and TensorFlow to build robust AI solutions, coupled with strong skills in data preprocessing, model evaluation, and collaborative team environments.",
+  "modified_bullets": [
+    {
+      "original": "Designed and deployed end-to-end ML pipelines using Python, TensorFlow, and MLflow on AWS SageMaker.",
+      "modified": "Designed and deployed scalable Machine Learning pipelines using Python and TensorFlow on AWS, ensuring efficient data processing and model delivery.",
+      "reason": "Emphasizes 'scalable' and 'efficient data processing' which aligns with the job's focus on scalable AI solutions and working with large datasets. Explicitly highlights Python, TensorFlow, and AWS as required/preferred skills."
+    },
+    {
+      "original": "Collaborated with cross-functional teams to define ML requirements and deliver production-ready models.",
+      "modified": "Collaborated effectively with cross-functional teams to define requirements, develop, and deliver production-ready AI models that addressed key business challenges.",
+      "reason": "Strengthens the emphasis on 'effective collaboration' and explicitly mentions 'AI models' to match the job title, while reinforcing the delivery of 'production-ready models' as sought by the employer."
+    }
+  ],
+  "highlighted_skills": [
+    "Python",
+    "TensorFlow",
+    "Machine Learning",
+    "Data Science",
+    "SQL",
+    "ML Pipelines",
+    "Data Preprocessing",
+    "Model Evaluation",
+    "AWS"
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "filtered_jobs": [
+    {
+      "Job Title": "AI Engineer",
+      "Company": "Zone IT Solutions",
+      "Location": "Texas City TX",
+      "Required Skills": "Python;TensorFlow;Machine Learning;Data Science;SQL",
+      "Years of Experience Required": "3",
+      "Job Description": "We are looking for an AI Engineer to design and deploy ML pipelines. You will build scalable AI solutions using Python and TensorFlow. The role involves working with large datasets and cloud platforms. Strong knowledge of data preprocessing and model evaluation required. Collaborate with cross-functional teams to deliver production-ready models. Experience with AWS or GCP preferred.",
+      "URL": "https://www.adzuna.com/details/5643253638"
+    },
+    {
+      "Job Title": "Python AI Engineer",
+      "Company": "SRI TECH SOLUTION",
+      "Location": "Cleveland OH",
+      "Required Skills": "Python;Azure;OpenAI;NLP;REST APIs",
+      "Years of Experience Required": "2",
+      "Job Description": "Seeking a Python AI Engineer with expertise in Azure OpenAI services. You will develop and maintain Python scripts to interact with Azure OpenAI APIs. Design scalable AI solutions for text generation and summarization. Build production-ready systems that address diverse business requirements. Strong Python and cloud experience required. Agile environment with fast delivery cycles.",
+      "URL": "https://www.adzuna.com/details/5647321831"
+    },
+    {
+      "Job Title": "AI Engineer",
+      "Company": "NuStar Technologies",
+      "Location": "Des Moines IA",
+      "Required Skills": "Machine Learning;Deep Learning;NLP;PyTorch;Python",
+      "Years of Experience Required": "3",
+      "Job Description": "NuStar Technologies seeks an AI Engineer to build intelligent systems. You will develop deep learning models for NLP applications. Experience with PyTorch and transformer architectures required. Work closely with data teams to prepare training datasets. Deploy models to production using containerized environments. Strong communication skills and team collaboration expected.",
+      "URL": "https://www.adzuna.com/details/5643123456"
+    },
+    {
+      "Job Title": "AI Engineer",
+      "Company": "BJC HealthCare",
+      "Location": "St. Louis MO",
+      "Required Skills": "Generative AI;Python;LLM;Machine Learning;Azure",
+      "Years of Experience Required": "4",
+      "Job Description": "BJC HealthCare is looking for an AI Engineer to implement generative AI solutions in healthcare. You will design LLM-based workflows for clinical documentation. Experience with Azure AI services and Python required. Must understand healthcare data privacy regulations. Collaborate with clinical teams to identify AI opportunities. Strong problem-solving and communication skills needed.",
+      "URL": "https://www.adzuna.com/details/5643789012"
+    },
+    {
+      "Job Title": "AI Engineer",
+      "Company": "Insight Global",
+      "Location": "Kansas City MO",
+      "Required Skills": "Machine Learning;Python;TensorFlow;Docker;Kubernetes",
+      "Years of Experience Required": "3",
+      "Job Description": "Insight Global is hiring an AI Engineer for a leading client. You will build and maintain ML pipelines in a cloud-native environment. Docker and Kubernetes experience required for deployment. Strong Python and TensorFlow background expected. Work in an agile team delivering AI features iteratively. Competitive salary and growth opportunities available.",
+      "URL": "https://www.adzuna.com/details/5643345678"
+    },
+    {
+      "Job Title": "AI Engineer",
+      "Company": "TEKsystems",
+      "Location": "Papillion NE",
+      "Required Skills": "Machine Learning;Python;AWS;Security Clearance;SQL",
+      "Years of Experience Required": "4",
+      "Job Description": "TEKsystems is seeking an AI Engineer with active security clearance. You will develop ML solutions for government clients. AWS experience and strong Python skills required. Must hold or be eligible for security clearance. Experience with data pipelines and ETL processes preferred. Strong documentation and compliance skills needed.",
+      "URL": "https://www.adzuna.com/details/5643901234"
+    },
+    {
+      "Job Title": "AI Solutions Engineer",
+      "Company": "Jobot",
+      "Location": "Fort Worth TX",
+      "Required Skills": "Python;AI;Machine Learning;REST APIs;Agile",
+      "Years of Experience Required": "3",
+      "Job Description": "Jobot is hosting this role for a dynamic multi-industry company. You will help build AI solutions and agent workflows. Experience with Python and AI frameworks required. REST API development skills needed for integration work. Fast-paced environment with diverse technology stack. Salary up to 125000 per year with strong benefits package.",
+      "URL": "https://www.adzuna.com/details/5643253600"
+    },
+    {
+      "Job Title": "ML Engineer",
+      "Company": "Euronet Worldwide",
+      "Location": "Kansas City KS",
+      "Required Skills": "Python;Machine Learning;TensorFlow;Keras;SQL",
+      "Years of Experience Required": "3",
+      "Job Description": "Euronet Worldwide seeks an ML Engineer for fintech AI applications. You will develop predictive models for financial transaction analysis. TensorFlow and Keras experience required. Strong SQL skills for data analysis and feature engineering. Work with large-scale transactional datasets. Experience in fintech or payments industry is a plus.",
+      "URL": "https://www.adzuna.com/details/5643567890"
+    },
+    {
+      "Job Title": "AI Engineer",
+      "Company": "Bright Vision Technologies",
+      "Location": "Houston TX",
+      "Required Skills": "Python;Deep Learning;Computer Vision;PyTorch;OpenCV",
+      "Years of Experience Required": "2",
+      "Job Description": "Bright Vision Technologies is hiring an AI Engineer for computer vision projects. You will develop deep learning models for image and video analysis. PyTorch and OpenCV experience required. Work on real-time inference systems and model optimization. Strong mathematical background in linear algebra and statistics. Experience with edge deployment is a bonus.",
+      "URL": "https://www.adzuna.com/details/5643678901"
+    },
+    {
+      "Job Title": "AI Engineer",
+      "Company": "Cordova",
+      "Location": "Omaha NE",
+      "Required Skills": "Python;NLP;Transformers;HuggingFace;MLflow",
+      "Years of Experience Required": "3",
+      "Job Description": "Cordova is seeking an AI Engineer to build NLP solutions. You will fine-tune transformer models using HuggingFace libraries. Experience with MLflow for experiment tracking required. Deploy models to production using Docker containers. Collaborate with product teams to define AI requirements. Strong communication and documentation skills expected.",
+      "URL": "https://www.adzuna.com/details/5643789013"
+    },
+    {
+      "Job Title": "Senior AI Engineer",
+      "Company": "Orion",
+      "Location": "Lincoln NE",
+      "Required Skills": "Python;LLM;RAG;LangChain;AWS",
+      "Years of Experience Required": "5",
+      "Job Description": "Orion is looking for a Senior AI Engineer to lead LLM integration projects. You will design retrieval-augmented generation systems using LangChain. AWS deployment experience required. Lead a small team of engineers and coordinate with stakeholders. Strong Python and cloud architecture skills needed. Experience with vector databases like Pinecone or Weaviate preferred.",
+      "URL": "https://www.adzuna.com/details/5643890124"
+    },
+    {
+      "Job Title": "AI Research Engineer",
+      "Company": "VeeRteq Solutions",
+      "Location": "Dallas TX",
+      "Required Skills": "Python;Research;Deep Learning;PyTorch;Publications",
+      "Years of Experience Required": "4",
+      "Job Description": "VeeRteq Solutions seeks an AI Research Engineer to advance state-of-the-art models. You will conduct applied research and implement novel architectures. Strong PyTorch skills required. Publications or research experience preferred. Work closely with product teams to transition research to production. PhD or equivalent research experience valued.",
+      "URL": "https://www.adzuna.com/details/5643901235"
+    },
+    {
+      "Job Title": "Data Scientist AI",
+      "Company": "Go Local Interactive",
+      "Location": "Omaha NE",
+      "Required Skills": "Python;Machine Learning;Scikit-learn;SQL;Tableau",
+      "Years of Experience Required": "2",
+      "Job Description": "Go Local Interactive is hiring a Data Scientist with AI focus. You will build predictive models for marketing optimization. Scikit-learn and Python skills required. Strong SQL for data extraction and analysis. Tableau for visualization and stakeholder reporting. Experience in digital marketing analytics is a strong plus.",
+      "URL": "https://www.adzuna.com/details/5644012346"
+    },
+    {
+      "Job Title": "AI Platform Engineer",
+      "Company": "Cognizant",
+      "Location": "Des Moines IA",
+      "Required Skills": "Python;MLOps;Kubernetes;Docker;CI/CD",
+      "Years of Experience Required": "4",
+      "Job Description": "Cognizant seeks an AI Platform Engineer to build MLOps infrastructure. You will design and maintain ML platform components. Kubernetes and Docker required for container orchestration. CI/CD pipeline experience essential. Work with data science teams to automate model deployment. Strong DevOps background with AI/ML focus preferred.",
+      "URL": "https://www.adzuna.com/details/5644123457"
+    },
+    {
+      "Job Title": "Applied AI Engineer",
+      "Company": "Teradata",
+      "Location": "Kansas City MO",
+      "Required Skills": "Python;SQL;Machine Learning;Data Warehousing;Teradata",
+      "Years of Experience Required": "3",
+      "Job Description": "Teradata is looking for an Applied AI Engineer with strong data skills. You will build AI solutions on top of Teradata data platforms. SQL and Python required. Experience with data warehousing and analytics. Work with enterprise clients to deliver AI-powered insights. Knowledge of Teradata tools and ecosystem a strong plus.",
+      "URL": "https://www.adzuna.com/details/5644234568"
+    },
+    {
+      "Job Title": "Machine Learning Engineer",
+      "Company": "Quora",
+      "Location": "Remote",
+      "Required Skills": "Python;Machine Learning;TensorFlow;Distributed Systems;Spark",
+      "Years of Experience Required": "4",
+      "Job Description": "Quora is hiring a Machine Learning Engineer for recommendation systems. You will build and improve ML models for content ranking. TensorFlow and distributed systems experience required. Apache Spark for large-scale data processing. Fully remote role with flexible working hours. Experience with A/B testing and experimentation frameworks preferred.",
+      "URL": "https://www.adzuna.com/details/5644345679"
+    },
+    {
+      "Job Title": "AI Engineer",
+      "Company": "TechVision Labs",
+      "Location": "Columbus OH",
+      "Required Skills": "Python;Computer Vision;PyTorch;OpenCV;TensorFlow",
+      "Years of Experience Required": "3",
+      "Job Description": "TechVision Labs seeks an AI Engineer for computer vision applications. You will develop real-time image processing pipelines. PyTorch and OpenCV required. TensorFlow knowledge helpful for model conversion. Work on embedded and cloud deployment scenarios. Experience with ONNX or TensorRT for model optimization preferred.",
+      "URL": "https://www.adzuna.com/details/5644456780"
+    },
+    {
+      "Job Title": "NLP Engineer",
+      "Company": "DataMinds",
+      "Location": "Des Moines IA",
+      "Required Skills": "Python;NLP;BERT;HuggingFace;Spacy",
+      "Years of Experience Required": "2",
+      "Job Description": "DataMinds is hiring an NLP Engineer to build language understanding systems. You will fine-tune BERT models for classification and extraction tasks. HuggingFace transformers required. SpaCy for text preprocessing pipelines. Work on chatbot and document analysis products. Experience with prompt engineering is a strong advantage.",
+      "URL": "https://www.adzuna.com/details/5644567891"
+    },
+    {
+      "Job Title": "AI Systems Engineer",
+      "Company": "MidWest AI Corp",
+      "Location": "Wichita KS",
+      "Required Skills": "Python;MLOps;AWS;Terraform;Monitoring",
+      "Years of Experience Required": "4",
+      "Job Description": "MidWest AI Corp seeks an AI Systems Engineer to own model deployment infrastructure. You will build scalable serving systems on AWS. Terraform for infrastructure-as-code required. Monitoring and observability tools experience needed. Collaborate with data scientists to productionize models. Strong reliability engineering mindset expected.",
+      "URL": "https://www.adzuna.com/details/5644678902"
+    },
+    {
+      "Job Title": "Generative AI Engineer",
+      "Company": "InnovateTech",
+      "Location": "St. Louis MO",
+      "Required Skills": "Python;LLM;Prompt Engineering;LangChain;OpenAI",
+      "Years of Experience Required": "3",
+      "Job Description": "InnovateTech is hiring a Generative AI Engineer to build LLM-powered products. You will design and implement prompt engineering strategies. LangChain and OpenAI API experience required. Work on customer-facing AI features with strong UX focus. Rapid prototyping and iteration in an agile environment. Experience with RAG architectures is highly valued.",
+      "URL": "https://www.adzuna.com/details/5644789013"
+    },
+    {
+      "Job Title": "AI Engineer",
+      "Company": "Central Data Systems",
+      "Location": "Omaha NE",
+      "Required Skills": "Python;Machine Learning;SQL;Tableau;Scikit-learn",
+      "Years of Experience Required": "3",
+      "Job Description": "Central Data Systems seeks an AI Engineer with strong analytics skills. You will build ML models for business intelligence applications. Python and Scikit-learn required. SQL for data pipeline development. Tableau for business reporting and dashboards. Work with business stakeholders to translate requirements into AI solutions.",
+      "URL": "https://www.adzuna.com/details/5644890124"
+    },
+    {
+      "Job Title": "Deep Learning Engineer",
+      "Company": "NeuroTech Solutions",
+      "Location": "Cincinnati OH",
+      "Required Skills": "Python;Deep Learning;PyTorch;CUDA;TensorRT",
+      "Years of Experience Required": "4",
+      "Job Description": "NeuroTech Solutions is looking for a Deep Learning Engineer to optimize neural networks. You will implement and accelerate deep learning models using CUDA. PyTorch required. TensorRT for inference optimization on GPU hardware. Experience with model quantization and pruning. Strong mathematics and optimization background expected.",
+      "URL": "https://www.adzuna.com/details/5644901235"
+    },
+    {
+      "Job Title": "AI Integration Engineer",
+      "Company": "PrairieAI",
+      "Location": "Topeka KS",
+      "Required Skills": "Python;APIs;Machine Learning;REST;Microservices",
+      "Years of Experience Required": "2",
+      "Job Description": "PrairieAI seeks an AI Integration Engineer to connect AI services with enterprise systems. You will build REST APIs and microservices that expose ML model predictions. Python required. Experience with API design and documentation. Work with enterprise clients on integration projects. Knowledge of message queues and event-driven architecture is a plus.",
+      "URL": "https://www.adzuna.com/details/5645012346"
+    },
+    {
+      "Job Title": "MLOps Engineer",
+      "Company": "Heartland Tech",
+      "Location": "Des Moines IA",
+      "Required Skills": "Python;MLOps;Airflow;Docker;Kubernetes",
+      "Years of Experience Required": "3",
+      "Job Description": "Heartland Tech is hiring an MLOps Engineer to automate the ML lifecycle. You will build Airflow DAGs for data and training pipelines. Docker and Kubernetes for containerized workloads. Monitor model performance in production. Collaborate with data scientists and platform teams. Experience with Feast or similar feature stores preferred.",
+      "URL": "https://www.adzuna.com/details/5645123457"
+    },
+    {
+      "Job Title": "AI Product Engineer",
+      "Company": "GreatPlains AI",
+      "Location": "Omaha NE",
+      "Required Skills": "Python;Machine Learning;Product Management;APIs;Agile",
+      "Years of Experience Required": "3",
+      "Job Description": "GreatPlains AI seeks an AI Product Engineer bridging engineering and product. You will build AI features end-to-end from design to deployment. Python and ML experience required. Strong product sense and user empathy. Work in cross-functional agile teams. Experience with A/B testing and metrics-driven development highly valued.",
+      "URL": "https://www.adzuna.com/details/5645234568"
+    }
+  ],
+  "removed_jobs": [],
+  "stats": {
+    "total_input": 25,
+    "total_kept": 25,
+    "total_removed": 0
+  }
+}
